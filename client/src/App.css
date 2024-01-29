@@ -18,6 +18,13 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.open-chatbot {
+  border-radius: 100%;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

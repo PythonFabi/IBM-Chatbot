@@ -1,6 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/chat-bot-white.svg'
-import ibmSecurityLogo from '/ibm-security-white.svg'
+import { useState } from 'react';
+import chatBotLogo from './assets/chat-bot-white.svg';
+import ibmSecurityLogo from '/ibm-security-white.svg';
+import chatBot from './components/Chatmodal'
 import './App.css'
 
 function App() {
@@ -11,9 +12,6 @@ function App() {
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={ibmSecurityLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       <h1>IBM Chatbot</h1>
@@ -26,8 +24,10 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the IBM Security and Chatbot Icons to learn more!
+        Click on the Chatbot Icon to start chatting!
       </p>
+
+      <chatBot></chatBot>
     </>
   )
 }
