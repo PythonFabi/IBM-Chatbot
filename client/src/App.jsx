@@ -1,7 +1,6 @@
-import { useState } from 'react';
-import chatBotLogo from './assets/chat-bot-white.svg';
-import ibmSecurityLogo from '/ibm-security-white.svg';
-import chatBot from './components/Chatmodal'
+import { useState } from 'react'
+import chatBotLogo from './assets/chat-bot-white.svg'
+import ibmSecurityLogo from '/ibm-security-white.svg'
 import './App.css'
 
 function App() {
@@ -13,21 +12,21 @@ function App() {
         <a href="https://vitejs.dev" target="_blank">
           <img src={ibmSecurityLogo} className="logo" alt="Vite logo" />
         </a>
+        <a href="https://react.dev" target="_blank">
+          
+        </a>
       </div>
       <h1>IBM Chatbot</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
       <p className="read-the-docs">
         Click on the Chatbot Icon to start chatting!
       </p>
 
-      <chatBot></chatBot>
+      <button className='open-chatbot'><img src={chatBotLogo} className="logo react" alt="IBM Chatbot logo" /></button>
     </>
   )
 }
