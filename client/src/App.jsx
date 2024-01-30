@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev">
           <img src={ibmSecurityLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev">
           
         </a>
       </div>
@@ -23,7 +23,7 @@ function App() {
         </button>
       </div>
       <p className="read-the-docs">
-        Click on the Chatbot Icon to start chatting!
+        Click on the Chatbot Icon in the bottom right to start chatting!
       </p>
 
       <button className='open-chatbot'><img src={chatBotLogo} className="logo react" alt="IBM Chatbot logo" /></button>
